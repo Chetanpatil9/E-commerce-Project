@@ -9,6 +9,8 @@ import healthAndPersonalCareAutoCarouselImage from '../Assets/Home Page/auto-car
 import electronicsAutoCarouselImage2 from '../Assets/Home Page/auto-carousel-electronics-banner-2.png'
 import fashionAutoCarouselImage2 from '../Assets/Home Page/auto-carousel-fashion-banner-2.png'
 import healthAndPersonalCareAutoCarouselImage2 from '../Assets/Home Page/auto-carousel-health-and-personal-care-banner-2.png'
+import electronicsAutoCarouselImage3 from '../Assets/Home Page/auto-carousel-electronics-banner-2.png'
+
 
 const HomeBannerAutoCarousel = () => {
     const settings = {
@@ -43,6 +45,10 @@ const HomeBannerAutoCarousel = () => {
                         <div>
                             <img src={healthAndPersonalCareAutoCarouselImage2} alt='health-and-personal-care-banner'></img>
                         </div>
+                        <div>
+                            <img src={electronicsAutoCarouselImage3} alt='electronics-banner'></img>
+                        </div>
+
                     </Slider>
                 </div>
             </div>

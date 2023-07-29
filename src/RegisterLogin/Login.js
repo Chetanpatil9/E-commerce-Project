@@ -48,7 +48,7 @@ export const Login = () => {
             <div id='login-page'>
                 <MdOutlineArrowBackIosNew className='login-register-back-icon' onClick={goBackFromLoginPage} />
                 <div className='login-register-header'>
-                    <Link to='/' className='shopit-logo-link'><h1>SHOPIT</h1></Link>
+                    <Link to='/' className='shopit-logo-link'><h1>i-SHOP</h1></Link>
                 </div>
                 <div className='login-register-container'>
                     <div className='login-register-form'>
@@ -61,7 +61,7 @@ export const Login = () => {
                             <input type='submit' onClick={handleSubmit} value='Login' id='login-btn' />
                         </form>
                     </div>
-                    <p>New to SHOPIT?</p>
+                    <p>New to i-SHOP?</p>
                     <NavLink to='/register' className='links' id='goto-register-btn'><button className='login-register'>Create your SHOPIT account</button></NavLink>
                 </div>
             </div>

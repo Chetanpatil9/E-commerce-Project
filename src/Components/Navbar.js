@@ -19,16 +19,16 @@ const Navbar = () => {
                     <div id='search'>
                         <ImSearch className='profile-cart-search-icon ' /><input type='search' placeholder='Search i-SHOP'></input>
                     </div>
-                    <NavLink to='/cart' id='user-cart'><BsCart3 className='profile-cart-search-icon' /><span>MY CART</span></NavLink>
-                    {isLogged ? <NavLink to='/userprofile' id='user-profile'><FiUser className='profile-cart-search-icon' /><span>MY PROFILE</span></NavLink> : <NavLink to='/login' activeClassName='active' id='user-profile'><FiUser className='profile-cart-search-icon' /><span>LOGIN</span></NavLink>}
+                    <NavLink to='/cart' id='user-cart'><BsCart3 className='profile-cart-search-icon' /><span>My Cart</span></NavLink>
+                    {isLogged ? <NavLink to='/userprofile' id='user-profile'><FiUser className='profile-cart-search-icon' /><span>My Profile</span></NavLink> : <NavLink to='/login' activeClassName='active' id='user-profile'><FiUser className='profile-cart-search-icon' /><span>LOGIN</span></NavLink>}
                 </div>
             </header>
             <nav className={isMobile ? "nav-links-mobile" : null} onClick={() => { setIsMobile(false) }}>
                 {isLogged ? <NavLink to='/userprofile' className='login links mobile-link'><FiUser className='profile-cart-search-icon' />MY PROFILE</NavLink> : <NavLink to='/login' className='login links mobile-link'><FiUser className='profile-cart-search-icon' />LOGIN</NavLink>}
                 <NavLink to='/cart' className='my-cart links mobile-link'><BsCart3 className='profile-cart-search-icon' /> MY CART</NavLink>
-                <NavLink to='/' activeClassName='active' className='links mobile-link'>HOME</NavLink>
+                <NavLink to='/' activeClassName='active' className='links mobile-link'>Home</NavLink>
                 <div className="dropdown">
-                    <NavLink to='/store' activeClassName='active' className='links mobile-link'>STORE</NavLink>
+                    <NavLink to='/store' activeClassName='active' className='links mobile-link'>Store</NavLink>
                     <div className="dropdown-content">
                         <div className='dropdown-items'>
                             <div>
@@ -78,12 +78,12 @@ const Navbar = () => {
                         </div>
                     </div>
                 </div>
-                <NavLink to='/electronics' activeClassName='active' className='links mobile-link'>ELECTRONICS</NavLink>
-                <NavLink to='/fashion' activeClassName='active' className='links mobile-link'>FASHION</NavLink>
-                <NavLink to='/homeandkitchen' activeClassName='active' className='links mobile-link'>HOME AND KITCHEN</NavLink>
-                <NavLink to='/healthandpersonalcare' activeClassName='active' className='links mobile-link'>HEALTH AND PERSONAL CARE</NavLink>
-                <NavLink to='/sports' activeClassName='active' className='links mobile-link'>SPORTS</NavLink>
-                <NavLink to='/books' activeClassName='active' className='links mobile-link'>BOOKS</NavLink>
+                <NavLink to='/electronics' activeClassName='active' className='links mobile-link'>Electronics</NavLink>
+                <NavLink to='/fashion' activeClassName='active' className='links mobile-link'>Fashion</NavLink>
+                <NavLink to='/homeandkitchen' activeClassName='active' className='links mobile-link'>Home and kitchen</NavLink>
+                <NavLink to='/healthandpersonalcare' activeClassName='active' className='links mobile-link'>Health and personal care</NavLink>
+                <NavLink to='/sports' activeClassName='active' className='links mobile-link'>Sports</NavLink>
+                <NavLink to='/books' activeClassName='active' className='links mobile-link'>Books</NavLink>
             </nav>
             <button className='mobile-menu-icon' onClick={() => { setIsMobile(!isMobile) }}>
                 {isMobile ? <RxCross2 /> : <GiHamburgerMenu />}

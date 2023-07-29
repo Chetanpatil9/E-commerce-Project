@@ -11,8 +11,8 @@ header{
     justify-content: space-between;
     align-items: baseline;
     padding: 1rem 1rem 0.5rem 2rem;
-    box-shadow: 0 2px 6px -2px gray;
-    background-color: #a0ecf4;
+    box-shadow: 0 2px 6px -2px rgb(180, 248, 243);
+    background-color: #fcfcfc;
 }
 h1{
     font-family: "Times New Roman", Times, serif;
@@ -24,6 +24,7 @@ h4{
     text-decoration: none;
     color: #131515;
     font-size: 15rem;
+    font-weight: bolder;
 }
 #profile-cart-search{
     display: flex;
@@ -58,11 +59,11 @@ h4{
 }
 input[type=search]{
     height: 1rem;
-    width: 25rem;
+    width: 6.5rem;
     font-size: 1rem;
     padding: 1rem;
     border-radius: 50rem;
-    border: 1.5px solid rgb(75, 76, 75);
+    /* border: 1.5px solid rgb(75, 76, 75); */
     margin-right: 4rem;
 }
 nav{
@@ -90,6 +91,7 @@ nav{
 .active{
     color: #ef9273;
     border-bottom: 2px solid #ef9273;
+    font-weight: bolder;
 }
 .dropdown {
     position: relative;
@@ -798,7 +800,8 @@ nav {
 .mobile-link{
     font-size: 3.3rem;
     margin-bottom: 0.5rem;
-    font-family: Poppins,sans-serif;
+    /* font-family: Poppins,sans-serif; */
+    font-family: "Times New Roman", Times, serif;
 }
 .links:hover{
     color: #0d0d0d;

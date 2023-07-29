@@ -49,7 +49,7 @@ const Home = ({ count }) => {
                     </div>
                 </div>
                 <div className='load-more-products-container-home'>
-                    <button onClick={loadMoreItems} className={visible === 15 ? 'load-more-products-button-hidden' : 'load-more-products-button-visible'}>LOAD MORE PRODUCTS »</button>
+                    <button onClick={loadMoreItems} className={visible === 15 ? 'load-more-products-button-hidden' : 'load-more-products-button-visible'}>Load More Product »</button>
                 </div>
             </div>
             <HomeBannerAutoCarousel />

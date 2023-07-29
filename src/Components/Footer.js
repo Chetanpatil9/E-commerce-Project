@@ -13,7 +13,7 @@ const Footer = () => {
             <div className='footer-upper'>
                 <div className='about-shopit'>
                     <div>
-                        <h1>SHOPIT</h1>
+                        <h1>i-SHOP</h1>
                         <p>Shop 'til you drop with Shopit ! <br /> Get it all with Shopit <br /> the ultimate e-commerce destination</p>
                     </div>
                     <div>

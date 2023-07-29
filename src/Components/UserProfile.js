@@ -17,8 +17,8 @@ const UserProfile = () => {
         <>
             <div className='user-profile-page'>
                 <div className='user-profile-page-heading'>
-                    <h1>SHOPIT</h1>
-                    <h5>HEY THERE !!! WELCOME TO YOUR PROFILE .</h5>
+                    <h1>i-SHOP</h1>
+                    <h5>HEY THERE !!! WELCOME TO YOUR PROFILE...</h5>
                 </div>
                 <div className='user-profile-page-go-to-homepage'>
                     <BiHomeAlt2 className='user-profile-page-home-icon' />
