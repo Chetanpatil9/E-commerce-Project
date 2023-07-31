@@ -98,12 +98,13 @@ nav{
     display: inline-block;
 }
 .dropdown-content {
-    width: 52rem;
+    width: 42rem;
     height: 23rem;
     display: none;
     position: absolute;
     top: 1.5rem;
-    background-color: rgb(235, 151, 151);
+    background-color: #e1e2e3;
+    /* background-color: rgb(235, 151, 151); */
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
@@ -219,6 +220,15 @@ nav{
     background: linear-gradient(to right, #828382, #f6f7f7);
     text-align: center;
 }
+.user-profile-box{
+    margin: auto ;
+    width: 30rem;
+    border: 2px solid black;
+    border-radius: 30px;
+    position: relative;
+    top: 5rem;
+}
+
 .user-profile-page h1{
     padding: 3rem 0 1.5rem 0;
 }
@@ -249,6 +259,7 @@ nav{
     font-size: 1.4rem;
     font-weight: 500;
     transition: 0.2s linear;
+    color: #26575f;
 }
 #carousel-container{
     display: flex;
@@ -290,13 +301,16 @@ nav{
     margin-bottom: 3rem;
     padding: 1rem 0 0 0;
     border-radius: 1rem;
-    box-shadow: 5px 5px 10px #9b9b9b,
-        -5px -5px 10px #ffffff;
+    border: 3px solid black;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* box-shadow: 5px 5px 10px #9b9b9b,
+        -5px -5px 10px #ffffff; */
 }
 
 .bestseller-product-card:hover {
-    transform: scale(110%);
-    transition: 1s ease-in-out;
+    /* transform: scale(110%);
+    transition: 1s ease-in-out; */
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .bestseller-product-card img {
@@ -324,7 +338,7 @@ nav{
     margin-top: 1rem;
 }
 .auto-carousel-container{
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
 }
@@ -360,6 +374,7 @@ nav{
 .featured {
     width: 100%;
     background: linear-gradient(to right, #5acddf, #f4f6f5);
+    border-radius:28% 72% 71% 29% / 45% 36% 64% 55% 
 }
 .featured-products h3 {
     padding-top: 4rem;
@@ -477,13 +492,13 @@ nav{
 }
 .product-category-dropdown-container{
     display: flex;
-    justify-content: flex-end;
-    margin-right: 5rem;
+    justify-content: center;
+    /* margin-right: 5rem; */
     margin-bottom: 2rem;
 }
 .product-category-dropdown-btn{
     width: 30rem;
-    background: linear-gradient(to right, #929391, #f7f9f8);
+    /* background: linear-gradient(to right, #929391, #f7f9f8); */
     color: #0d0d0d;
     padding: 16px;
     font-size: 16px;
@@ -536,13 +551,17 @@ nav{
     margin-bottom: 3rem;
     padding: 1rem 0;
     border-radius: 1rem;
-    box-shadow: 5px 5px 10px #bebebe,
-            -5px -5px 10px #ffffff;
+    border: 3px solid rgba(0, 0, 0, 0.778);
+  
+  
 }
 .product-card:hover{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 4px 6px, rgba(0, 0, 0, 0.3) 0px 10px 15px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;}
+
+/* .product-card:hover{
     transform: scale(96%);
     transition: 1s ease-in-out;
-}
+} */
 .product-card img{
     width: 12rem;
     height: 12rem;
