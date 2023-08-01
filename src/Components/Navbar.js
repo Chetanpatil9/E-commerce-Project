@@ -45,7 +45,7 @@ const Navbar = () => {
                                 <Link to='/fashion/womensfashion' className='dropdown-links'>Women's Fashion</Link>
                                 <Link to='/fashion/kidsfashion' className='dropdown-links'>Kids Fashion</Link>
                             </div>
-                            <div>
+                            {/* <div>
                                 <h5>Home and Kitchen</h5>
                                 <Link to='/homeandkitchen/kitchenanddining' className='dropdown-links'>Kitchen and Dining</Link>
                                 <Link to='/homeandkitchen/furniture' className='dropdown-links'>Furniture</Link>
@@ -58,7 +58,7 @@ const Navbar = () => {
                                 <Link to='/healthandpersonalcare/beautytoolsandaccessories' className='dropdown-links'>Beauty Tools and Accessories</Link>
                                 <Link to='/healthandpersonalcare/dietandnutrition' className='dropdown-links'>Diet and Nutrition</Link>
                                 <Link to='/healthandpersonalcare/personalcareappliances' className='dropdown-links'>Personal Care Appliances</Link>
-                            </div>
+                            </div> */}
                             <div>
                                 <h5>Sports</h5>
                                 <Link to='/sports/cricket' className='dropdown-links'>Cricket</Link>
@@ -80,8 +80,8 @@ const Navbar = () => {
                 </div>
                 <NavLink to='/electronics' activeClassName='active' className='links mobile-link'>Electronics</NavLink>
                 <NavLink to='/fashion' activeClassName='active' className='links mobile-link'>Fashion</NavLink>
-                <NavLink to='/homeandkitchen' activeClassName='active' className='links mobile-link'>Home and kitchen</NavLink>
-                <NavLink to='/healthandpersonalcare' activeClassName='active' className='links mobile-link'>Health and personal care</NavLink>
+                {/* <NavLink to='/homeandkitchen' activeClassName='active' className='links mobile-link'>Home and kitchen</NavLink> */}
+                {/* <NavLink to='/healthandpersonalcare' activeClassName='active' className='links mobile-link'>Health and personal care</NavLink> */}
                 <NavLink to='/sports' activeClassName='active' className='links mobile-link'>Sports</NavLink>
                 <NavLink to='/books' activeClassName='active' className='links mobile-link'>Books</NavLink>
             </nav>

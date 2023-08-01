@@ -62,7 +62,7 @@ export const Login = () => {
                         </form>
                     </div>
                     <p>New to i-SHOP?</p>
-                    <NavLink to='/register' className='links' id='goto-register-btn'><button className='login-register'>Create your SHOPIT account</button></NavLink>
+                    <NavLink to='/register' className='links' id='goto-register-btn'><button className='login-register'>Create your i-SHOP account</button></NavLink>
                 </div>
             </div>
         </>
