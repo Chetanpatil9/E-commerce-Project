@@ -2,7 +2,7 @@ import React from 'react'
 import './Components.css'
 import { FiUser } from 'react-icons/fi'
 import { BsCart3 } from 'react-icons/bs'
-import { ImSearch } from 'react-icons/im'
+// import { ImSearch } from 'react-icons/im'
 import { Link, NavLink } from 'react-router-dom'
 import { GiHamburgerMenu } from 'react-icons/gi'
 import { RxCross2 } from 'react-icons/rx'
@@ -16,9 +16,9 @@ const Navbar = () => {
             <header>
                 <Link to='/' className='shopit-logo-link'><h1>i-SHOP</h1></Link>
                 <div id='profile-cart-search'>
-                    <div id='search'>
+                    {/* <div id='search'>
                         <ImSearch className='profile-cart-search-icon ' /><input type='search' placeholder='Search i-SHOP'></input>
-                    </div>
+                    </div> */}
                     <NavLink to='/cart' id='user-cart'><BsCart3 className='profile-cart-search-icon' /><span>My Cart</span></NavLink>
                     {isLogged ? <NavLink to='/userprofile' id='user-profile'><FiUser className='profile-cart-search-icon' /><span>My Profile</span></NavLink> : <NavLink to='/login' activeClassName='active' id='user-profile'><FiUser className='profile-cart-search-icon' /><span>LOGIN</span></NavLink>}
                 </div>
