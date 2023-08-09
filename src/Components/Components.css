@@ -23,7 +23,7 @@ h4{
 .shopit-logo-link{
     text-decoration: none;
     color: #131515;
-    font-size: 15rem;
+    font-size: 10rem;
     font-weight: bolder;
 }
 #profile-cart-search{
@@ -480,10 +480,11 @@ nav{
 .payment-options{
     display: flex;
     justify-content: flex-end;
-    padding: 1rem 0 7rem 0;
+    /* padding: 1rem 0 7rem 0; */
 }
 .payment-options img{
     margin: 0 3rem 0 0;
+
 }
 .back-icon {
     font-size: 2rem;
